@@ -125,7 +125,7 @@
                 .addClass('no-results')
                 .show()
                 .prependTo($this.opts.list)
-                .html($this.opts.nodata);
+                .text($this.opts.nodata);
 
               $this.trigger('_after_nodata');
               
